@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Sym from "@public/Sympathy.webp";
+import { Main } from "../routes/Main";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <img 
-                src={Sym} alt="Sympathy" 
-                height="500px" width="auto"
-            />
+            <Main />
         </React.Fragment>
     );
 };
