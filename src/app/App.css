@@ -18,5 +18,12 @@ body {
     background-color: var(--gray);
 }
 
-
+.grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill, 
+        minmax(15em, 1fr)
+    );
+    grid-gap: 1em;
+}
 
